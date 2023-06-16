@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio if 1 mejorado</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    
+    <div id="contenedor-login">
+    <h2>Ejercicio if 1 - Manejo de multiples usuarios</h2>
+    <label class="separacion-elementos" for="">Username or email address</label>
+    <input class="separacion-elementos"id="nombre-usuario" type="text">
+    <div class="separacion-elementos"id="contenedor-contrasenia">
+        <label for="">Password</label>
+        <a href="">Forgot password?</a>
+    </div>
+    <input class="separacion-elementos" id="nombre-contrasenia" type="password">
+    <button class="separacion-elementos" onclick="sesionIniciada()">Sig in</button>
+    <p>Show usarnames and passwords</p>
+    <button id="boton-2" onclick="mostrarListaUsuarios()">Show</button>
+    </div>
+
+    <p id="parrafo-especial"></p>
+
+    <div id="contenedor-info-usuarios">
+       
+    </div>
+    
     <script src="problema1.js"></script>
 </body>
 </html>
